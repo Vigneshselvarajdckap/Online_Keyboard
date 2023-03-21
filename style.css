@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.keyboard {
+ margin-left: 45px; 
+ margin-top: 20px;
+}
+
+.buttons>button{
+    width: 60px;
+    height: 58px;
+    margin: 8px 9px;
+    cursor: pointer;
+}
+
+button#\38 {
+    width: 165px;
+    text-align: end;
+    padding-right: 6px;
+
+}
+
+button#\39 {
+    width: 95px;
+    text-align: start;
+    padding-left: 6px;
+}
+
+button#\32 20 {
+    width: 130px;
+    text-align: start;
+    padding-left: 6px;
+}
+
+button#\32 0 {
+    width: 122px;
+    text-align: start;
+    padding-left: 6px;
+}
+button#\31 3 {
+    width: 173px;
+    text-align: end;
+    padding-right: 6px;
+    position: relative;
+    left: 7px;
+
+}
+button#\39 0 {
+    margin-left: 184px;
+}
+.shift {
+    position: relative;
+    bottom: 87px;
+    height: 58px;
+    left: 7px;
+    width: 166px;
+    text-align: start;
+    padding-left: 6px;
+}
+
+textarea.area {
+    width: 91%;
+    height: 200px;
+    margin-top: 5px;
+    font-size: 30px;
+    position: relative;
+    left: 52px;
+}
+
+.shifts {
+    height: 58px;
+    width: 197px;
+    position: relative;
+    left: 819px;
+    bottom: 87px;
+    text-align: end;
+    padding-right: 6px;
+}
+
+button#\31 92 {
+    text-align: start;
+    padding-left: 6px;
+}
+
+button.Fn {
+    width: 60px;
+    position: relative;
+    right: 364px;
+    height: 58px;
+    bottom: 11px;
+}
+button.Ctrl {
+    width: 58px;
+    position: relative;
+    right: 254px;
+    height: 58px;
+    bottom: 11px;
+}
+.active{
+    background-color: aqua;
+
+}
+button{
+    background-color: rgb(83, 81, 81);
+    border-radius: 5px;
+    border-color: rgb(53, 67, 78);
+}
+button:hover{
+    background-color: aqua;
+    border-color: rgb(53, 67, 78);
+}
+body{
+    background-color: aqua;
+}
+button.Ctrl {
+    width: 80px;
+    position: relative;
+    right: 358px;
+    height: 58px;
+    bottom: 11px;
+}
+
+button.spaces {
+    width: 545px;
+    position: relative;
+    right: 47px;
+    top: 10px;
+    height: 58px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
